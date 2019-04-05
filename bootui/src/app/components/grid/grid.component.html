@@ -1,26 +1,54 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <title>Grid</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Grid</title>
 
-    <style type="text/css">
-      .row > div {
-        background: #f2f2f2;
-        margin: 10px 0; /*10px button and up; left and right 0*/
-      }
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <h1>Demo Grid</h1>
-          <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        </div>
-      </div>
+  <style type="text/css">
+    .row > div {
+      text-align: center;
+      margin: 10px 0; /*10px button and up; left and right 0*/
+    }
+
+    .one {
+      background: #f2f2f2;
+    }
+
+    .two {
+      background: #dbdbdb;
+      /*padding: 0 20px;*/
+    }
+
+    .three {
+      background: #f2f2f2;
+    }
+
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col one">
+      <h1>Demo Grid 1</h1>
+      <p>This is a template for a simple marketing or informational website. It includes a large callout called a
+        jumbotron and three supporting pieces of content. Use it as a starting point to create something more
+        unique.</p>
     </div>
-  </body>
+    <!-- col-lg-auto ==> [also is col-xl-auto] -->
+    <!-- col-md-auto ==> [also is col-lg-auto AND col-xl-auto] -->
+    <div class="col two col-auto">
+      <h1>Demo Grid 2</h1>
+    </div>
+    <div class="col three">
+      <h1>Demo Grid 3</h1>
+      <p>This is a template for a simple marketing or informational website. It includes a large callout called a
+        jumbotron and three supporting pieces of content. Use it as a starting point to create something more
+        unique.</p>
+    </div>
+  </div>
+</div>
+</body>
 </html>
 
