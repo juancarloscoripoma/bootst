@@ -1,0 +1,20 @@
+.cabin-seats-wall-left{
+  background: rgba(0, 0, 0, 0) url("../../../assets/img/left-wall-line-vertical.png") repeat-y scroll 0 0;
+  display: block;
+  width: 10px;
+  height: 43px;
+}
+.cabin-seats-wall-right{
+  background: rgba(0, 0, 0, 0) url("../../../assets/img/right-wall-line-vertical.png") repeat-y scroll 0 0;
+  display: block;
+  width: 10px;
+  height: 43px;
+}
+.carx{
+  text-align: center;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}

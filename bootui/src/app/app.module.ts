@@ -7,6 +7,10 @@ import { GridComponent } from './components/grid/grid.component';
 import { GridWComponent } from './components/grid-w/grid-w.component';
 import { DestinationComponent } from './components/destination/destination.component';
 import { OutputsComponent } from './components/outputs/outputs.component';
+import { BoxComponent } from './components/box/box.component';
+import { Box2Component } from './components/box2/box2.component';
+import { CabinComponent } from './components/cabin/cabin.component';
+import { ColumnVerticalComponent } from './components/column-vertical/column-vertical.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +18,11 @@ import { OutputsComponent } from './components/outputs/outputs.component';
     GridComponent,
     GridWComponent,
     DestinationComponent,
-    OutputsComponent
+    OutputsComponent,
+    BoxComponent,
+    Box2Component,
+    CabinComponent,
+    ColumnVerticalComponent
   ],
   imports: [
     BrowserModule,
