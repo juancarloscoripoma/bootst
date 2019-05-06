@@ -13,7 +13,9 @@ import { CabinComponent } from './components/cabin/cabin.component';
 import { ColumnVerticalComponent } from './components/column-vertical/column-vertical.component';
 import { InvoiceComponent } from './components/invoice/invoice.component';
 import { MaskDemoComponent } from './components/mask-demo/mask-demo.component';
+import {IConfig, NgxMaskModule} from 'ngx-mask';
 
+export let options: Partial<IConfig> | (() => Partial<IConfig>);
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,7 +32,8 @@ import { MaskDemoComponent } from './components/mask-demo/mask-demo.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgxMaskModule.forRoot(options)
   ],
   providers: [],
   bootstrap: [AppComponent]
