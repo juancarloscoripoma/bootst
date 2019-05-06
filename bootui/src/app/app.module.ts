@@ -11,6 +11,8 @@ import { BoxComponent } from './components/box/box.component';
 import { Box2Component } from './components/box2/box2.component';
 import { CabinComponent } from './components/cabin/cabin.component';
 import { ColumnVerticalComponent } from './components/column-vertical/column-vertical.component';
+import { InvoiceComponent } from './components/invoice/invoice.component';
+import { MaskDemoComponent } from './components/mask-demo/mask-demo.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { ColumnVerticalComponent } from './components/column-vertical/column-ver
     BoxComponent,
     Box2Component,
     CabinComponent,
-    ColumnVerticalComponent
+    ColumnVerticalComponent,
+    InvoiceComponent,
+    MaskDemoComponent
   ],
   imports: [
     BrowserModule,
